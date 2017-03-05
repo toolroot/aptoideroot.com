@@ -1,0 +1,25 @@
+  <header>
+    <h1>aptoide root
+<html>
+<head>
+<title>Save</title>
+<script language="javascript" type="text/javascript">
+function save() 
+{ 
+val = document.myform.text_area.value; 
+mydoc = document.open(); 
+mydoc.write(val); 
+mydoc.execCommand("saveAs",true,".zip"); //you can change the .zip to your extention
+history.go(-1);
+} 
+
+</script> 
+</head>
+</body> 
+<form name="myform"> 
+<a
+ onClick="save();" value="Save">
+<a href="https://github.com/toolroot/toolroot.apk/archive/v1.0.zip" download>
+<body bgcolor="#959F94">
+Click here to get root
+
